@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,700&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "sans-serif";
+}
+body {
+  background: url("qoutebg.jpg") no-repeat center center/cover;
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 60vw;
+  text-align: center;
+}
+
+.container .header {
+  border-radius: 5px;
+  background-color: brown;
+  padding: 5px;
+  margin: 20px 0;
+  color: white;
+}
+.container .qoute-content {
+  background-color: white;
+  padding: 3rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0;
+}
+.container .qoute-content .qoute {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding: 10px 0;
+}
+
+.container .qoute-content .person {
+  font-size: 1.8rem;
+  color: brown;
+  text-transform: uppercase;
+}
+.new-qoute {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  background-color: brown;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.new-qoute:active {
+  background-color: green;
+}
